@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Frame xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:views="clr-namespace:ContentViewXamarin.Views" x:DataType="views:HomeTabbedPage"
+       x:Class="ContentViewXamarin.Views.Components.MenuView">
+    <StackLayout>
+        <Image Source="{Binding PicturePath}" HeightRequest="45"/>
+        <Label Text="{Binding Title}" Style="{StaticResource TitleLabelStyle}"/>
+        <Label Text="{Binding CountPlaces, StringFormat='{0} Place'}" Style="{StaticResource DetailLabelStyle}"/>
+    </StackLayout>
+</Frame>
