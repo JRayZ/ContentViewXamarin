@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ContentViewXamarin.Models
 {
-    class MenuOption
+    public class MenuOption
     {
         public MenuOption(string title, int countPlaces, string picturePath)
         {

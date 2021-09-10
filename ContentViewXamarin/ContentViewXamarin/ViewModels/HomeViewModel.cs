@@ -5,7 +5,7 @@ using ContentViewXamarin.Models;
 
 namespace ContentViewXamarin.ViewModels
 {
-    class HomeViewModel
+    public class HomeViewModel
     {
         public MenuOption BarAndHotelsMenuOption { get; }
         public MenuOption FreeDinningMenuOption { get; }
