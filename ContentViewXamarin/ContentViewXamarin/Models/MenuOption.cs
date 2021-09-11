@@ -6,15 +6,15 @@ namespace ContentViewXamarin.Models
 {
     public class MenuOption
     {
-        public MenuOption(string title, int countPlaces, string picturePath)
+        public MenuOption(string picturePath, int countPlaces, string title)
         {
-            Title = title;
-            CountPlaces = countPlaces;
             PicturePath = picturePath;
+            CountPlaces = countPlaces;
+            Title = title;
         }
 
-        public string Title { get; }
-        public int CountPlaces { get; }
         public string PicturePath { get; }
+        public int CountPlaces { get; }
+        public string Title { get; }
     }
 }

@@ -5,7 +5,7 @@
             x:Class="ContentViewXamarin.Views.HomeTabbedPage"
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" 
             android:TabbedPage.ToolbarPlacement="Bottom">
-    
+
     <!--Pages can be added as references or inline-->
     <local:HomePage Title="Home" IconImageSource="HomeIcon"></local:HomePage>
     <ContentPage Title="Option 2" IconImageSource="Option2"></ContentPage>
