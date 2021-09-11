@@ -83,7 +83,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\FreeDiningIcon.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ContentViewXamarin\ContentViewXamarin.csproj">
       <Project>{C7A05F29-3713-4F74-8257-65DD49B0218A}</Project>
@@ -95,9 +97,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\FeaturedFoodIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\FreeDiningIcon.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\HomeIcon.png" />

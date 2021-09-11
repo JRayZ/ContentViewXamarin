@@ -15,12 +15,12 @@ namespace ContentViewXamarin.ViewModels
         public MenuOption FeaturedFoodsMenuOption { get; }
         public HomeViewModel()
         {
-            BarAndHotelsMenuOption = new MenuOption("BarsIcon.png", 50, "Bars & Hotels");
-            FreeDinningMenuOption = new MenuOption("FreeDinningIcon.png", 25, "Free Dinning");
-            CafesMenuOption = new MenuOption("CafeIcon.png", 38, "Cafes");
-            NearbyMenuOption = new MenuOption("NearbyIcon.png", 24, "Nearby");
-            FastFoodsMenuOption = new MenuOption("FastFoodIcon.png", 19, "Fast Foods");
-            FeaturedFoodsMenuOption = new MenuOption("FeaturedFoodIcon.png", 41, "Featured Foods");
+            BarAndHotelsMenuOption = new MenuOption("Bars & Hotels", "BarsIcon.png", 50);
+            FreeDinningMenuOption = new MenuOption("Free Dinning", "FreeDiningIcon.png", 25);
+            CafesMenuOption = new MenuOption("Cafes", "CafeIcon.png", 38);
+            NearbyMenuOption = new MenuOption("Nearby", "NearbyIcon.png", 24);
+            FastFoodsMenuOption = new MenuOption("Fast Foods", "FastFoodIcon.png", 19);
+            FeaturedFoodsMenuOption = new MenuOption("Featured Foods", "FeaturedFoodIcon.png", 41);
         }
     }
 }
